@@ -1,6 +1,4 @@
-# 💫 About Me:
 SmartTasks is a modern task management web app designed to help users organize, track, and complete tasks efficiently with a clean and intuitive interface.
-
 
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:localbtstudio@gmail.com) 
