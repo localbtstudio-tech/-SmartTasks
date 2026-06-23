@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartTasks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+
+
+  <div class="container">
+
+    <header>
+      <h1>🧠 SmartTasks</h1>
+      <div class="controls">
+        <button id="lang-toggle">🌐 EN</button>
+        <button id="theme-toggle">🌙</button>
+      </div>
+    </header>
+
+    <section class="input-area">
+      <input type="text" id="task-input" placeholder="Write a task..." />
+      <input type="datetime-local" id="task-date" />
+      <button id="add-task">➕</button>
+    </section>
+
+    <section class="filter-area">
+      <input type="text" id="search-input" placeholder="🔍 Search tasks..." />
+      <div class="filter-buttons">
+        <button data-filter="all" class="filter-btn active">All</button>
+        <button data-filter="completed" class="filter-btn">✅ Done</button>
+        <button data-filter="pending" class="filter-btn">🕓 Pending</button>
+      </div>
+    </section>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <footer>
+      <p id="task-counter">✅ 0/0 tasks completed</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
